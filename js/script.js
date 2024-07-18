@@ -31,3 +31,11 @@ btn.onclick = function () {
     "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
   document.body.style.backgroundColor = rndCol;
 };
+function add(){
+ const input=document.querySelector("#input");
+ const ul=document.querySelector("ul");
+const li=document.querySelector("li");
+li.textContent=input.Value;
+ul.appendChild(li);
+
+}
